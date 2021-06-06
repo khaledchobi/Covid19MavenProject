@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests">
+    <test verbose="2" preserve-order="true" name="/Users/khaledhasan/Desktop/Java_Github/MavenProject">
+   <!-- <test verbose="2" preserve-order="true" name="/Users/khaledhasan/Desktop/Java_Github/MavenProject">-->
+
+    <classes>
+
+        <class name="com.compilia.signin.SignInTest" />
+
+    </classes>
+
+
+    </test>
+</suite>
+
+
+
+
+
+

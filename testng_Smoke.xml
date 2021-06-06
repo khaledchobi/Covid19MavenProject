@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeTest" parallel="tests">
+    <test verbose="2" preserve-order="true" name="/Users/khaledhasan/Desktop/Java_Github/MavenProject">
+        <groups>
+            <run>
+                <include name = "SmokeTest" ></include>
+            </run>
+        </groups>
+        <classes>
+
+            <class name="com.compilia.signin.SignInTest"/>
+            <class name="com.compilia.homepage.HomePageTest"/>
+
+
+
+        </classes>
+    </test>
+</suite>
